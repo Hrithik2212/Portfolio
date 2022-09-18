@@ -5,4 +5,12 @@
 
 * This is a website showcasing my certification , projects and skills made with the Django Framework 
 
+<html>
+<img src='web_imgs/1.jpg'>
+<img src='web_imgs/2.jpg'>
+<img src='web_imgs/3.jpg'>
+<img src='web_imgs/4.jpg'>
+<img src='web_imgs/5.jpg'>
+</html>
+
 This is my first attempt at developing a website 
