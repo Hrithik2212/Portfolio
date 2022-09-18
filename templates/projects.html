@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+{% load static %}
+<style>
+    body{
+        margin: 0px;
+        background-color: rgb(38, 33, 33);
+
+    }
+</style>
+<body>
+    {% include 'navbar.html'%}
+    <h3 style = "color:white;position: absolute; left:14%; top:14%;">Computer  Vision for Self Driving Cars</h3>
+    <img src="{% static 'cvsdc.jpg' %}" width =480px; align = left; 
+        style = "position:absolute; top:21%;left:10%;">
+    <h3 style = "color:white;position: absolute; left:56%; top:14%;">Detection of Traverse Cirrus Bands from Sattelite Imagery</h3>
+    <img src="{%static 'tcb.jpg' %}" width =600px; align =right; 
+    style = "position:absolute; top:21%; left:52%">
+
+    <a href="https://github.com/Hrithik2212/CV-for-Self-Driving-Car"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="25px"
+        style = "position: absolute; background-color:white;top:16%;left:11%"></a>
+    <a href="https://github.com/Hrithik2212/Transverse-Cirrus-Bands-Identification-from-Satellite-Imagery"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="25px"
+            style = "position: absolute; background-color:white;top:16%;left:53%"></a>
+    
+    <h2 style = "position: absolute; color: white; top :90%; left:45%" >My Other Projects </h2>
+    
+    <b>
+        <ul style="position:absolute; top:96%; left:38%;color:white; font-size:140%;">
+           <li>Road Sign Detection - CNN </li>
+           <li>Facial Key Point Detection - Regression CNN</li>
+           <li>AI SpyCam - IOT(esp32 && Computer vision) </li>
+           <li>Age Estimation and Gender Classification </li>
+           <li>Cat and Dog Classification </li>
+           <li>Sentimental Analysis - NLP - RNN </li>
+           <li>Disaster Tweet Analysis </li>
+           <li>Bangalore House Price Prediction </li>
+           <li>Heart Disease Prediction </li>
+           <li>Customer Segmentation </li>
+           <li>Covid Mask Detector - IOT(CNN && esp32) </li> 
+        </ul>
+    </b>
+</body>
+<p style = "position: absolute; top :150%; color:white">
+____________________________________________________________________________________________________________________________________________________________________________________
+</p>
+</html>

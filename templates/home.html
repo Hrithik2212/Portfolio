@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+{% load static%}
+
+<style>
+    body{
+        background-image: url("https://bernardmarr.com/img/What%20Is%20The%20Impact%20Of%20Artificial%20Intelligence%20(AI)%20On%20Society.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin:0px;
+    
+    }
+    nav{
+        background-color: black;
+        overflow: hidden;
+        padding : 10px;
+    }
+    .nav a{
+        color:white;
+        text-decoration: none;
+        text-align: center;
+        float: right;
+        text-indent: 22px;
+        margin: 14px;
+    }
+     .nav a:hover{
+        color : white;
+        font-size:20px ;
+        text-align:inherit;
+        
+    } 
+</style>
+
+<body>
+    <div>
+        {% include 'navbar.html'%}
+    </div>
+    
+    <div>
+       <!-- <img src = "https://bernardmarr.com/img/What%20Is%20The%20Impact%20Of%20Artificial%20Intelligence%20(AI)%20On%20Society.png"
+       width = '60%'height='5000px'> -->
+    </div>
+    <div>
+        <h1 style="position:absolute; top:30%; left: 68%; color: black;"> Hi , I am Hrithik </h1> 
+        <img style="position:absolute; top:33%; left: 84%;"  src = "https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" 
+        width = 30px; height= 30px>
+        <b>
+        <ul style="position:absolute; top:40%; left:63%;color:black; font-size:140%;">
+           <li>Machine Learning Enthusiast </li>
+           <li>Aspiring Data Scientist </li>
+           <li> 2nd Year Student from SRMIST</li>
+           <li>Data Science Intern at AML Clouds</li> 
+
+        </ul>
+        </b>
+    </div>
+</body>
+</html>
